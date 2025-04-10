@@ -1,0 +1,11 @@
+@use "./src/sass/vendors/bulma.vendor";
+@use "./src/sass/abstract/keyframes.abstract";
+@use "./src/sass/base/base.base";
+
+
+
+//pages
+@use "./src/sass/pages/landing.page";
+@use "./src/sass/pages/home.page";
+@use "./src/sass/pages/login.page";
+@use "./src/sass/pages/not-found.page";

@@ -1,0 +1,11 @@
+.home {
+
+    &__main {
+        background-image: url('/assets/images/inner-bg.jpg');
+        background-color: rgba($color: #000000, $alpha: 0.4);
+        background-blend-mode: overlay;
+        flex-direction: column;
+
+
+    }
+}

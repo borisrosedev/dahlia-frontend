@@ -14,6 +14,10 @@ module.exports = {
     module: {
         rules: [
             {
+                test: /\.xml$/,
+                use: 'xml-loader'
+            },
+            {
                 test: /\.(scss|sass)$/,
                 use: ["style-loader","css-loader","sass-loader"]
             },
@@ -28,7 +32,10 @@ module.exports = {
         ]
     },
     resolve:{
-        extensions: [".js",".ts"]
+        extensions: [".js",".ts"],
+        alias: {
+            '@': path.resolve(__dirname, 'src')
+        },
     },
     plugins:[
        new HTMLPlugin({
@@ -38,6 +45,9 @@ module.exports = {
             patterns: [
                 {
                     from: "assets", to: "assets"
+                },
+                {
+                    from: "data", to: "data"
                 }
             ]
        })

@@ -1,0 +1,1 @@
+export type OnNavigate = (h:string) => void

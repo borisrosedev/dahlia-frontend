@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "dev":"webpack serve",
-    "deploy":"npm install && npm run build",
-    "build":"webpack build",
+    "dev": "webpack serve",
+    "deploy": "npm install && npm run build",
+    "build": "webpack build",
     "format:write": "prettier . --write",
     "format:check": "prettier . --check"
   },
@@ -28,6 +28,7 @@
     "typescript-eslint": "^8.29.1",
     "webpack": "^5.99.5",
     "webpack-cli": "^6.0.1",
-    "webpack-dev-server": "^5.2.1"
+    "webpack-dev-server": "^5.2.1",
+    "xml-loader": "^1.2.1"
   }
 }
