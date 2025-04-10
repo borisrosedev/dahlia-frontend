@@ -8,29 +8,29 @@ export default function registerPage (){
                     <section>
                         <article>
                             <label for="firstname"></label>
-                            <input class="input" id="firstname" type="text" placeholder="Entrer votre prénom" />
+                            <input name="firstname" class="input" id="firstname" type="text" placeholder="Entrer votre prénom" />
                         </article>
                         <article>
                             <label for="lastname"></label>
-                            <input class="input" id="lastname" type="text" placeholder="Entrer votre nom" />
+                            <input name="lastname" class="input" id="lastname" type="text" placeholder="Entrer votre nom" />
                         </article>
                         <article>
                             <label for="photo"></label>
-                            <input class="input" id="photo" type="file" />
+                            <input name="photo" class="input" id="photo" type="file" />
                         <article>
                     </section>
                     <section>
                         <article>
                             <label for="email"></label>
-                            <input class="input" id="email" type="email" placeholder="Entrer votre email" />
+                            <input name="email" class="input" id="email" type="email" placeholder="Entrer votre email" />
                         </article>
                         <article>
                             <label for="password"></label>
-                            <input class="input" id="password" type="password" placeholder="Entrer un mot de passe" />
+                            <input name="password" class="input" id="password" type="password" placeholder="Entrer un mot de passe" />
                         </article>
                         <article>
                             <label for="confirmed-password"></label>
-                            <input class="input" id="confirmed-password" type="password" placeholder="Confirmer le mot de passe" />
+                            <input name="confirmed-password" class="input" id="confirmed-password" type="password" placeholder="Confirmer le mot de passe" />
                         </article>
                     </section>
 
