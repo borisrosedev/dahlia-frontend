@@ -79,16 +79,13 @@ export default class RegisterContainer {
 
         const request = {
             method: "POST",
-            headers: {
-                "Content-Type": "multipart/form-data",
-            },
             body: newFormData,
         }
 
         // lorsque vous n'êtes pas certain que la connexion aboutisse 
         // utiliser un try-catch pour capturer l'erreur
         try {
-            const response = await fetch('http://localhost:3000', request)
+            const response = await fetch('http://localhost:3000/api/v1/users', request)
         } catch(err){
             console.log(err)
         }
